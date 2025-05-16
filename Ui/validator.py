@@ -44,7 +44,7 @@ def render():
                         st.info("ℹ️ Same input detected. Skipping duplicate validation.")
                         return
 
-                    res = requests.post("http://rule-engine:8000/validate", json=payload)
+                    res = requests.post("https://rule-engine-validator.onrender.com/validate", json=payload)
                     res.raise_for_status()
                     result = res.json()
 
