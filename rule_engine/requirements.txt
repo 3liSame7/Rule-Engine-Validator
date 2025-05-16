@@ -1,0 +1,32 @@
+# fastapi==0.115.12
+# uvicorn==0.34.2
+# pydantic==2.11.4
+# python-multipart==0.0.20
+# requests==2.32.3   
+# python-dotenv==1.1.0
+# langchain==0.3.25
+# langchain-core==0.3.59
+# langchain-community==0.3.24
+# langchain-huggingface==0.2.0
+# huggingface_hub==0.31.2
+# pytesseract==0.3.13
+# PyMuPDF==1.25.5
+# Pillow==11.2.1
+# ujson==5.10.0
+# pdfminer.six==20250506
+fastapi==0.115.1
+uvicorn==0.34.0
+pydantic==2.6.4
+python-multipart==0.0.9
+requests==2.32.2
+python-dotenv==1.0.1
+langchain-community==0.0.36
+langchain-core==0.1.50
+huggingface_hub==0.23.0
+pytesseract==0.3.10
+PyMuPDF==1.23.7
+Pillow==11.2.1
+ujson==5.8.0
+pdfminer.six==20231228
+groq
+openai
