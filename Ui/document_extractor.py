@@ -16,7 +16,7 @@ def render():
                 with st.spinner("Extracting fields..."):
                     files = {"file": (uploaded_file.name, uploaded_file.getvalue())}
                     try:
-                        res = requests.post("http://rule-engine:8000/extract", files=files)
+                        res = requests.post("https://rule-engine-validator.onrender.com/extract", files=files)
                         res.raise_for_status()
                         result = res.json()
                         st.success("Extraction completed.")
