@@ -14,7 +14,7 @@ def render():
                 st.warning("Please provide rule text before parsing.")
             else:
                 try:
-                    res = requests.post("http://rule-engine:8000/parse-rule", json={"rule_text": rule_text})
+                    res = requests.post("https://rule-engine-validator.onrender.com/parse-rule", json={"rule_text": rule_text})
                     res.raise_for_status()
                     parsed_rule = res.json()["parsed_rule"]
                     st.success("Parsed Rule:")
