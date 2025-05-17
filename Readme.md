@@ -8,7 +8,7 @@ An end-to-end AI-powered application for validating business documents against n
 
 **🚀 Live Demo**
 
-Frontend (Streamlit): \[your-streamlit-url\]  
+Frontend (Streamlit): [\[your-streamlit-url\]  ](https://3lysame7-rule-engine-validator.streamlit.app/)
  Backend (FastAPI on Render): [https://rule-engine-validator.onrender.com](https://rule-engine-validator.onrender.com)
 
 ---
