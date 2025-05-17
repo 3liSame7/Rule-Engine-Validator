@@ -1,4 +1,7 @@
-https://github.com/user-attachments/assets/9702d132-1787-4f73-96a4-afbd5d926f9b
+
+
+https://github.com/user-attachments/assets/2da278d8-5c65-4a78-9b4b-ffbd4d931a08
+
 **📄🧠✅ Document Rule Validator**
 
 An end-to-end AI-powered application for validating business documents against natural language rules using LLMs.
